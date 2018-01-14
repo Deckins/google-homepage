@@ -1,0 +1,77 @@
+html,body{
+margin:0;
+padding:0;
+}
+.homepage{
+}
+.logo{
+display:block;
+margin:0 auto;
+max-width:500px;
+max-height:500px;
+height:auto;
+width:auto;
+
+}
+.form{
+display:block;
+text-align: center;
+}
+
+input{
+width: 400px;
+min-width: 200px;
+position:relative;
+top:-80px;
+}
+.border{
+text-align:center;
+position:relative;
+right:14px;
+bottom:65px;
+}
+.border li{
+margin: 0px 5px;
+display:inline-block;
+
+}
+
+.btn{
+padding:9px 9px;
+font-family:arial,sans-serif;
+font-weight:bold;
+font-size:11px;
+background-color:#f2f2f2;
+color:#757575;
+}
+.left_footer ,.right_footer{
+padding:0;
+margin: 5px 9px;
+position:absolute;
+
+}
+.left_footer{
+left:0;
+bottom:0;
+}
+.right_footer{
+right:0;
+bottom:0;
+}
+.left_footer li{
+display:inline-block;
+margin:3px 8px;
+font-size: 12px; 
+font-family:arial, sans-serif;
+}
+.right_footer li{
+display:inline-block;
+margin: 3px 8px;
+font-size: 12px;
+font-family: arial, sans-serif;
+
+}
+.background{
+color:gainsboro;
+
+}
