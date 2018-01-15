@@ -17,13 +17,14 @@ width:auto;
 display:block;
 text-align: center;
 }
-
+/*Search Bar*/
 input{
 width: 400px;
 min-width: 200px;
 position:relative;
 top:-80px;
 }
+/*Unordered list buttons*/
 .border{
 text-align:center;
 position:relative;
@@ -47,7 +48,7 @@ color:#757575;
 .left_footer ,.right_footer{
 padding:0;
 margin: 5px 9px;
-position:absolute;
+position:fixed; /*Fixed instead of Absolute so that it remains at the bottom*/
 
 }
 .left_footer{
@@ -71,7 +72,9 @@ font-size: 12px;
 font-family: arial, sans-serif;
 
 }
-.background{
-color:gainsboro;
-
+.background {
+background-color:gainsboro;
+width:auto;
+width:100%;
+z-index:2;
 }
