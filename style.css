@@ -59,35 +59,31 @@ color:white;
 border:none;
 
 }
+header{
+position:absolute;
+top:0;
+width:100%;
+
+}
 .left_header, .right_header, .left_footer ,.right_footer{
 padding:0;
 margin: 5px 9px;
-/*position:fixed;*/ /*Fixed instead of Absolute so that it remains at the bottom*/
 
 }
 .left_footer{
-left:0;
-/*bottom:0;*/
-/*position:absolute;*/ /*I DONT FUCKING KNOW WHY THIS DOESNT WORK*/
+float:left;
 }
-header{
-}
-.right_footer{
-right:0;
-position:absolute;
 
-/*bottom:0;*/
+.right_footer{
+float:right;
+
 }
 .left_header{
-position:absolute;
-top:0;
-left:0;
+float:left;
 
 }
 .right_header{
-position:absolute;
-top:0;
-right:0;
+float:right;
 
 }
 li{
@@ -99,10 +95,8 @@ font-family: arial, sans-serif;
 }
 footer{
 background-color:gainsboro;
-width:auto;
 width:100%;
 z-index:3;
 position:absolute;
 bottom:0;
-display:-webkit-inline-box;
 }
