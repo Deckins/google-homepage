@@ -5,8 +5,8 @@ padding:0;
 .homepage{
 }
 .logo{
-display:block;
-margin:0 auto;
+display:block;/*Centers the image horizontally*/
+margin:0 auto;/*Centers*/
 max-width:500px;
 max-height:500px;
 height:auto;
@@ -45,6 +45,20 @@ font-size:11px;
 background-color:#f2f2f2;
 color:#757575;
 }
+.grid_image{
+width:15px;
+height:15px;
+position:relative;
+top:2px;
+}
+.sign_in{
+background-color: #4285f4;
+font-weight:bold;
+padding: 3px 5px;
+color:white;
+border:none;
+
+}
 .left_header, .right_header, .left_footer ,.right_footer{
 padding:0;
 margin: 5px 9px;
@@ -55,6 +69,8 @@ margin: 5px 9px;
 left:0;
 /*bottom:0;*/
 /*position:absolute;*/ /*I DONT FUCKING KNOW WHY THIS DOESNT WORK*/
+}
+header{
 }
 .right_footer{
 right:0;
@@ -81,7 +97,7 @@ font-size: 12px;
 font-family: arial, sans-serif;
 
 }
-.footer {
+footer{
 background-color:gainsboro;
 width:auto;
 width:100%;
