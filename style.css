@@ -45,36 +45,48 @@ font-size:11px;
 background-color:#f2f2f2;
 color:#757575;
 }
-.left_footer ,.right_footer{
+.left_header, .right_header, .left_footer ,.right_footer{
 padding:0;
 margin: 5px 9px;
-position:fixed; /*Fixed instead of Absolute so that it remains at the bottom*/
+/*position:fixed;*/ /*Fixed instead of Absolute so that it remains at the bottom*/
 
 }
 .left_footer{
 left:0;
-bottom:0;
+/*bottom:0;*/
+/*position:absolute;*/ /*I DONT FUCKING KNOW WHY THIS DOESNT WORK*/
 }
 .right_footer{
 right:0;
-bottom:0;
+position:absolute;
+
+/*bottom:0;*/
 }
-.left_footer li{
-display:inline-block;
-margin:3px 8px;
-font-size: 12px; 
-font-family:arial, sans-serif;
+.left_header{
+position:absolute;
+top:0;
+left:0;
+
 }
-.right_footer li{
+.right_header{
+position:absolute;
+top:0;
+right:0;
+
+}
+li{
 display:inline-block;
-margin: 3px 8px;
+margin: 3px 8px; 
 font-size: 12px;
 font-family: arial, sans-serif;
 
 }
-.background {
+.footer {
 background-color:gainsboro;
 width:auto;
 width:100%;
-z-index:2;
+z-index:3;
+position:absolute;
+bottom:0;
+display:-webkit-inline-box;
 }
